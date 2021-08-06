@@ -8,7 +8,7 @@ from django.utils.text import slugify
 class Note(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     title = models.CharField(max_length=50)
-    slug = models.SlugField(null=True,blank=True)
+    slug = models.SlugField(null=True, blank=True)
     content = models.TextField(blank=True)
     created_at = models.DateTimeField(blank=True, default=datetime.datetime.now)
     active = models.BooleanField(default=True)
