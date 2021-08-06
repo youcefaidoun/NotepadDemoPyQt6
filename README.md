@@ -1,1 +1,1 @@
-# djangoNotes
+# djangoNotes testproject
