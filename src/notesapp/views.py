@@ -6,9 +6,14 @@ def all_notes(request):
     all_notes = models.Note.objects.all()
     template_name = "all_notes.html"
     context = {
-        "all_notes": all_notes
+        "all_notes": all_notes,
     }
     return render(request, template_name, context)
 
-def detail_notes(request):
-    pass
+def detail_notes(request, id):
+    detail_notes = models.Note.objects.get(id=id)
+    template_name = "detail_notes.html"
+    context = {
+        "detail_notes": detail_notes,
+    }
+    return render(request,template_name, context)

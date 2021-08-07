@@ -8,7 +8,9 @@
     <div class="">
       <h1>all_notes</h1>
       {% for note in all_notes  %}
-        <p>{{note}}</p>
+        <p>{{note}}
+          <a href="{% url "notesapp:detail_notes" note.id %}">detail</a>
+        </p>
       {% endfor %}
     </div>
   </body>
