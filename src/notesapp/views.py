@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from . import models, forms
 from django.views.decorators.csrf import csrf_protect
 # Create your views here.
@@ -28,6 +28,7 @@ def add(request):
             add_form = form.save(commit=False) # commit = Fales > don't commit or save it in dB now
             add_form.user = request.user
             add_form.save()
+        return redirect('/notes')
 
     else:
         form = forms.NoteForm()
