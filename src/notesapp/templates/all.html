@@ -7,6 +7,10 @@
   <body>
     <div class="">
       <h1>all</h1>
+        <p>
+          <a href="{% url "notesapp:add" %}">ADD NEW NOTE</a>
+        </p>
+        <hr>
       {% for note in all  %}
         <p>
           <a href="{% url "notesapp:detail" note.slug %}">{{note}}</a>
