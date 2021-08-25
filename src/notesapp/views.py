@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect
 from . import models, forms
 from django.views.decorators.csrf import csrf_protect
+from django.shortcuts import get_object_or_404
+from django.urls import reverse
 # Create your views here.
 
 def all(request):
@@ -21,20 +23,30 @@ def detail(request, slug):
 
 @csrf_protect
 def add(request):
-
     if request.method == "POST":
         form = forms.NoteForm(request.POST)
         if form.is_valid():
-            add_form = form.save(commit=False) # commit = Fales > don't commit or save it in dB now
-            add_form.user = request.user
-            add_form.save()
+            new_form = form.save(commit=False) # commit = Fales > don't commit or save it in dB now
+            new_form.user = request.user
+            new_form.save()
         return redirect('/notes')
 
     else:
         form = forms.NoteForm()
-
     template_name = "add.html"
-    context = {
-        'form': form,
-    }
+    context = {'form': form,}
     return render(request,template_name, context)
+
+
+@csrf_protect
+def edit(request, slug):
+    note = get_object_or_404(models.Note, slug=slug)
+    if request.method == "POST":
+        form = forms.NoteForm(request.POST, instance = note)
+        form.save()
+        return redirect('/notes')
+    else:
+        form = forms.NoteForm(instance = note)
+    template_name = 'edit.html'
+    context = {'form': form,}
+    return render(request, template_name, context)

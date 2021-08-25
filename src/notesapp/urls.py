@@ -6,5 +6,6 @@ app_name = "notesapp"
 urlpatterns = [
     path("", views.all, name="all"),
     path("<slug>/detail/", views.detail, name="detail"),
-    path("add/", views.add, name="add")
+    path("add/", views.add, name="add"),
+    path("<slug>/detail/edit", views.edit, name="edit"),
 ]

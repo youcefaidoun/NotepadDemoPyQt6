@@ -14,6 +14,8 @@
       <p>{{detail.created_at}}</p>
       <p>{{detail.active}}</p>
       <p>{{detail.tags}}</p>
+      <p>
+        <a href="{% url 'notesapp:edit' detail.slug %}">EDIT</a></p>
     </div>
   </body>
 </html>
