@@ -13,8 +13,8 @@ def all(request):
     }
     return render(request, template_name, context)
 
-def detail(request, slug):
-    detail = models.Note.objects.get(slug=slug)
+def detail(request, id):
+    detail = models.Note.objects.get(id=id)
     template_name = "detail.html"
     context = {
         "detail": detail,
@@ -39,8 +39,8 @@ def add(request):
 
 
 @csrf_protect
-def edit(request, slug):
-    note = get_object_or_404(models.Note, slug=slug)
+def edit(request, id):
+    note = get_object_or_404(models.Note, id=id)
     if request.method == "POST":
         form = forms.NoteForm(request.POST, instance = note)
         form.save()

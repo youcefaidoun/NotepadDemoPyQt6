@@ -13,7 +13,7 @@
         <hr>
       {% for note in all  %}
         <p>
-          <a href="{% url "notesapp:detail" note.slug %}">{{note}}</a>
+          <a href="{% url "notesapp:detail" note.id %}">{{note}}</a>
         </p>
       {% endfor %}
     </div>
