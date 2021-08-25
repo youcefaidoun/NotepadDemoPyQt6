@@ -2,14 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>all_notes</title>
+    <title>all</title>
   </head>
   <body>
     <div class="">
-      <h1>all_notes</h1>
-      {% for note in all_notes  %}
+      <h1>all</h1>
+      {% for note in all  %}
         <p>
-          <a href="{% url "notesapp:detail_notes" note.slug %}">{{note}}</a>
+          <a href="{% url "notesapp:detail" note.slug %}">{{note}}</a>
         </p>
       {% endfor %}
     </div>
