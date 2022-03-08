@@ -1,1 +1,1 @@
-# djangoNotes testproject
+# NotePad Demo application
