@@ -1,1 +1,1 @@
-# NotePad Demo application
+# PyQt6 NotePad Demo Application
