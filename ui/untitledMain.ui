@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>805</width>
+    <width>854</width>
     <height>600</height>
    </rect>
   </property>
@@ -25,7 +25,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>805</width>
+     <width>854</width>
      <height>22</height>
     </rect>
    </property>
@@ -83,9 +83,42 @@
    <addaction name="menuAbout"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNew"/>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionUndo"/>
+   <addaction name="actionRedo"/>
+   <addaction name="actionUnderline"/>
+   <addaction name="actionBold"/>
+   <addaction name="actionItalic"/>
+   <addaction name="actionLeft"/>
+   <addaction name="actionCenter"/>
+   <addaction name="actionRight"/>
+   <addaction name="actionJustify"/>
+   <addaction name="actionColor"/>
+   <addaction name="actionCopy"/>
+   <addaction name="actionPaste"/>
+   <addaction name="actionCut"/>
+   <addaction name="actionPrint"/>
+   <addaction name="actionExport_PDF"/>
+   <addaction name="actionPrint_Preview"/>
+   <addaction name="actionFont"/>
+   <addaction name="actionInfo"/>
+   <addaction name="actionExit"/>
+  </widget>
   <action name="actionNew">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/file.svg</normaloff>:/awesome5in6/awesome5in6/file.svg</iconset>
    </property>
    <property name="text">
@@ -97,7 +130,7 @@
   </action>
   <action name="actionOpen">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/file-word.svg</normaloff>:/awesome5in6/awesome5in6/file-word.svg</iconset>
    </property>
    <property name="text">
@@ -109,7 +142,7 @@
   </action>
   <action name="actionSave">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/save.svg</normaloff>:/awesome5in6/awesome5in6/save.svg</iconset>
    </property>
    <property name="text">
@@ -121,7 +154,7 @@
   </action>
   <action name="actionPrint">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/print.svg</normaloff>:/awesome5in6/awesome5in6/print.svg</iconset>
    </property>
    <property name="text">
@@ -133,7 +166,7 @@
   </action>
   <action name="actionPrint_Preview">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/glasses.svg</normaloff>:/awesome5in6/awesome5in6/glasses.svg</iconset>
    </property>
    <property name="text">
@@ -145,7 +178,7 @@
   </action>
   <action name="actionExport_PDF">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/file-pdf.svg</normaloff>:/awesome5in6/awesome5in6/file-pdf.svg</iconset>
    </property>
    <property name="text">
@@ -157,7 +190,7 @@
   </action>
   <action name="actionExit">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/window-close.svg</normaloff>:/awesome5in6/awesome5in6/window-close.svg</iconset>
    </property>
    <property name="text">
@@ -166,7 +199,7 @@
   </action>
   <action name="actionUndo">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/undo.svg</normaloff>:/awesome5in6/awesome5in6/undo.svg</iconset>
    </property>
    <property name="text">
@@ -178,7 +211,7 @@
   </action>
   <action name="actionRedo">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/redo.svg</normaloff>:/awesome5in6/awesome5in6/redo.svg</iconset>
    </property>
    <property name="text">
@@ -190,7 +223,7 @@
   </action>
   <action name="actionCut">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/cut.svg</normaloff>:/awesome5in6/awesome5in6/cut.svg</iconset>
    </property>
    <property name="text">
@@ -202,7 +235,7 @@
   </action>
   <action name="actionCopy">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/copy.svg</normaloff>:/awesome5in6/awesome5in6/copy.svg</iconset>
    </property>
    <property name="text">
@@ -214,7 +247,7 @@
   </action>
   <action name="actionPaste">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/paste.svg</normaloff>:/awesome5in6/awesome5in6/paste.svg</iconset>
    </property>
    <property name="text">
@@ -226,7 +259,7 @@
   </action>
   <action name="actionBold">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/bold.svg</normaloff>:/awesome5in6/awesome5in6/bold.svg</iconset>
    </property>
    <property name="text">
@@ -238,7 +271,7 @@
   </action>
   <action name="actionItalic">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/italic.svg</normaloff>:/awesome5in6/awesome5in6/italic.svg</iconset>
    </property>
    <property name="text">
@@ -250,7 +283,7 @@
   </action>
   <action name="actionUnderline">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/underline.svg</normaloff>:/awesome5in6/awesome5in6/underline.svg</iconset>
    </property>
    <property name="text">
@@ -262,7 +295,7 @@
   </action>
   <action name="actionLeft">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/align-left.svg</normaloff>:/awesome5in6/awesome5in6/align-left.svg</iconset>
    </property>
    <property name="text">
@@ -274,7 +307,7 @@
   </action>
   <action name="actionRight">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/align-right.svg</normaloff>:/awesome5in6/awesome5in6/align-right.svg</iconset>
    </property>
    <property name="text">
@@ -286,7 +319,7 @@
   </action>
   <action name="actionCenter">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/align-center.svg</normaloff>:/awesome5in6/awesome5in6/align-center.svg</iconset>
    </property>
    <property name="text">
@@ -298,7 +331,7 @@
   </action>
   <action name="actionJustify">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/align-justify.svg</normaloff>:/awesome5in6/awesome5in6/align-justify.svg</iconset>
    </property>
    <property name="text">
@@ -310,7 +343,7 @@
   </action>
   <action name="actionFont">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/font.svg</normaloff>:/awesome5in6/awesome5in6/font.svg</iconset>
    </property>
    <property name="text">
@@ -322,7 +355,7 @@
   </action>
   <action name="actionColor">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/palette.svg</normaloff>:/awesome5in6/awesome5in6/palette.svg</iconset>
    </property>
    <property name="text">
@@ -331,7 +364,7 @@
   </action>
   <action name="actionInfo">
    <property name="icon">
-    <iconset resource="../../../ImageApp/awesome5in6.qrc">
+    <iconset resource="awesome5in6.qrc">
      <normaloff>:/awesome5in6/awesome5in6/info.svg</normaloff>:/awesome5in6/awesome5in6/info.svg</iconset>
    </property>
    <property name="text">
@@ -340,7 +373,7 @@
   </action>
  </widget>
  <resources>
-  <include location="../../../ImageApp/awesome5in6.qrc"/>
+  <include location="awesome5in6.qrc"/>
  </resources>
  <connections/>
 </ui>
