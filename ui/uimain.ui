@@ -118,8 +118,8 @@
   </widget>
   <action name="actionNew">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/file.svg</normaloff>:/awesome5in6/awesome5in6/file.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/file.svg</normaloff>:/awosome/icons/awesome/file.svg</iconset>
    </property>
    <property name="text">
     <string>New</string>
@@ -130,8 +130,8 @@
   </action>
   <action name="actionOpen">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/file-word.svg</normaloff>:/awesome5in6/awesome5in6/file-word.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/file-word.svg</normaloff>:/awosome/icons/awesome/file-word.svg</iconset>
    </property>
    <property name="text">
     <string>Open</string>
@@ -142,8 +142,8 @@
   </action>
   <action name="actionSave">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/save.svg</normaloff>:/awesome5in6/awesome5in6/save.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/save.svg</normaloff>:/awosome/icons/awesome/save.svg</iconset>
    </property>
    <property name="text">
     <string>Save</string>
@@ -154,8 +154,8 @@
   </action>
   <action name="actionPrint">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/print.svg</normaloff>:/awesome5in6/awesome5in6/print.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/print.svg</normaloff>:/awosome/icons/awesome/print.svg</iconset>
    </property>
    <property name="text">
     <string>Print</string>
@@ -166,8 +166,8 @@
   </action>
   <action name="actionPrint_Preview">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/glasses.svg</normaloff>:/awesome5in6/awesome5in6/glasses.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/glasses.svg</normaloff>:/awosome/icons/awesome/glasses.svg</iconset>
    </property>
    <property name="text">
     <string>Print Preview</string>
@@ -178,8 +178,8 @@
   </action>
   <action name="actionExport_PDF">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/file-pdf.svg</normaloff>:/awesome5in6/awesome5in6/file-pdf.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/file-pdf.svg</normaloff>:/awosome/icons/awesome/file-pdf.svg</iconset>
    </property>
    <property name="text">
     <string>Export PDF</string>
@@ -190,8 +190,8 @@
   </action>
   <action name="actionExit">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/window-close.svg</normaloff>:/awesome5in6/awesome5in6/window-close.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/window-close.svg</normaloff>:/awosome/icons/awesome/window-close.svg</iconset>
    </property>
    <property name="text">
     <string>Exit</string>
@@ -199,8 +199,8 @@
   </action>
   <action name="actionUndo">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/undo.svg</normaloff>:/awesome5in6/awesome5in6/undo.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/undo-alt.svg</normaloff>:/awosome/icons/awesome/undo-alt.svg</iconset>
    </property>
    <property name="text">
     <string>Undo</string>
@@ -211,8 +211,8 @@
   </action>
   <action name="actionRedo">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/redo.svg</normaloff>:/awesome5in6/awesome5in6/redo.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/redo-alt.svg</normaloff>:/awosome/icons/awesome/redo-alt.svg</iconset>
    </property>
    <property name="text">
     <string>Redo</string>
@@ -223,8 +223,8 @@
   </action>
   <action name="actionCut">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/cut.svg</normaloff>:/awesome5in6/awesome5in6/cut.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/cut.svg</normaloff>:/awosome/icons/awesome/cut.svg</iconset>
    </property>
    <property name="text">
     <string>Cut</string>
@@ -235,8 +235,8 @@
   </action>
   <action name="actionCopy">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/copy.svg</normaloff>:/awesome5in6/awesome5in6/copy.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/copy.svg</normaloff>:/awosome/icons/awesome/copy.svg</iconset>
    </property>
    <property name="text">
     <string>Copy</string>
@@ -247,8 +247,8 @@
   </action>
   <action name="actionPaste">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/paste.svg</normaloff>:/awesome5in6/awesome5in6/paste.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/paste.svg</normaloff>:/awosome/icons/awesome/paste.svg</iconset>
    </property>
    <property name="text">
     <string>Paste</string>
@@ -259,8 +259,8 @@
   </action>
   <action name="actionBold">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/bold.svg</normaloff>:/awesome5in6/awesome5in6/bold.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/bold.svg</normaloff>:/awosome/icons/awesome/bold.svg</iconset>
    </property>
    <property name="text">
     <string>Bold</string>
@@ -271,8 +271,8 @@
   </action>
   <action name="actionItalic">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/italic.svg</normaloff>:/awesome5in6/awesome5in6/italic.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/italic.svg</normaloff>:/awosome/icons/awesome/italic.svg</iconset>
    </property>
    <property name="text">
     <string>Italic</string>
@@ -283,8 +283,8 @@
   </action>
   <action name="actionUnderline">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/underline.svg</normaloff>:/awesome5in6/awesome5in6/underline.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/underline.svg</normaloff>:/awosome/icons/awesome/underline.svg</iconset>
    </property>
    <property name="text">
     <string>Underline</string>
@@ -295,8 +295,8 @@
   </action>
   <action name="actionLeft">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/align-left.svg</normaloff>:/awesome5in6/awesome5in6/align-left.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/align-left.svg</normaloff>:/awosome/icons/awesome/align-left.svg</iconset>
    </property>
    <property name="text">
     <string>Left</string>
@@ -307,8 +307,8 @@
   </action>
   <action name="actionRight">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/align-right.svg</normaloff>:/awesome5in6/awesome5in6/align-right.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/align-right.svg</normaloff>:/awosome/icons/awesome/align-right.svg</iconset>
    </property>
    <property name="text">
     <string>Right</string>
@@ -319,8 +319,8 @@
   </action>
   <action name="actionCenter">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/align-center.svg</normaloff>:/awesome5in6/awesome5in6/align-center.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/align-center.svg</normaloff>:/awosome/icons/awesome/align-center.svg</iconset>
    </property>
    <property name="text">
     <string>Center</string>
@@ -331,8 +331,8 @@
   </action>
   <action name="actionJustify">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/align-justify.svg</normaloff>:/awesome5in6/awesome5in6/align-justify.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/align-justify.svg</normaloff>:/awosome/icons/awesome/align-justify.svg</iconset>
    </property>
    <property name="text">
     <string>Justify</string>
@@ -343,8 +343,8 @@
   </action>
   <action name="actionFont">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/font.svg</normaloff>:/awesome5in6/awesome5in6/font.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/font.svg</normaloff>:/awosome/icons/awesome/font.svg</iconset>
    </property>
    <property name="text">
     <string>Font</string>
@@ -355,8 +355,8 @@
   </action>
   <action name="actionColor">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/palette.svg</normaloff>:/awesome5in6/awesome5in6/palette.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/palette.svg</normaloff>:/awosome/icons/awesome/palette.svg</iconset>
    </property>
    <property name="text">
     <string>Color</string>
@@ -364,8 +364,8 @@
   </action>
   <action name="actionInfo">
    <property name="icon">
-    <iconset resource="awesome5in6.qrc">
-     <normaloff>:/awesome5in6/awesome5in6/info.svg</normaloff>:/awesome5in6/awesome5in6/info.svg</iconset>
+    <iconset resource="../src/icons.qrc">
+     <normaloff>:/awosome/icons/awesome/info.svg</normaloff>:/awosome/icons/awesome/info.svg</iconset>
    </property>
    <property name="text">
     <string>Info</string>
@@ -373,7 +373,7 @@
   </action>
  </widget>
  <resources>
-  <include location="awesome5in6.qrc"/>
+  <include location="../src/icons.qrc"/>
  </resources>
  <connections/>
 </ui>
